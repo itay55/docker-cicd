@@ -3,8 +3,6 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-//    "install": "node index.js",
-    "install": "echo hello",
     "test": "npm install inherits && mocha"
   },
   "engines": {
