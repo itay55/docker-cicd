@@ -12,7 +12,7 @@ job('NodeJS Docker example') {
     
     steps {
         dockerBuildAndPublish {
-            repositoryName('itatuy/mine')
+            repositoryName('shalomtody/shalom')
             tag('itay')
             registryCredentials('itay')
             buildContext('./basics/')
