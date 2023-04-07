@@ -14,7 +14,7 @@ job('NodeJS Docker example') {
         dockerBuildAndPublish {
             repositoryName('shalomtody/shalom')
             tag('itay')
-            registryCredentials('itay')
+            registryCredentials('dockerhub')
             buildContext('./basics/')
             forcePull(false)
             forceTag(false)
