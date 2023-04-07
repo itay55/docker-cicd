@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
 //    "install": "node index.js",
-      "install": "echo hello",
+    "install": "echo hello",
     "test": "npm install inherits && mocha"
   },
   "engines": {
